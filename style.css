@@ -1,6 +1,6 @@
 body{
-    font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 95%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(184, 40%, 79%);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -9,37 +9,46 @@ body{
 .weatherform{
     margin: 20px;
 }
+
+
 .cityInput{
     padding:10px;
     font-size:2rem;
     font-weight: bold;
-    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border: 2px solid hsla(0, 0%, 100%, 0.73);
     border-radius:10px ;
     margin: 10px;
     width: 300px;
+}
+.cityInput:hover{
+    box-shadow: 2px 2px 5px hsl(0,0%,0%);
+    
 }
 button[type="submit"] {
     padding: 10px 20px;
     font-weight: bold;
     font-size: 2rem;
-    background-color: aquamarine;
-    color: blue;
+    background-color: silver;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 button[type="submit"]:hover{
-    background-color: magenta;
+    background-color:blanchedalmond;
+    box-shadow: 2px 2px 5px hsl(0,0%,0%);
 }
 .card{
-    background:linear-gradient(100deg,hsl(210,30%,75%),hsl(40,100%,75%));
+    background:linear-gradient(100deg,hsla(210, 90%, 47%, 0.67),hsla(122, 98%, 52%, 0.56));
     padding: 50px;
     border-radius:10px ;
-    box-shadow: 2px 2px 5px hsl(0,0%,0%);
     min-width: 300px;
     display: flex;
     flex-direction:column;
     align-items: center;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px hsl(0,0%,0%);
 }
 h1{
     font-size: 3.5rem;
@@ -53,7 +62,7 @@ p{
 .cityDisplay, .tempDisplay{
     font-size :3.5rem;
     font-weight: bold;
-    color: black;
+    color:white;
     margin-bottom: 25px;
 }
 .humidityDisplay{

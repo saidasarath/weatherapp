@@ -56,10 +56,13 @@ function displayWeatherInf0(data){
 }
 
 function getWeatherEmoji(weatherId){
+    const ele = document.querySelector(".card")
 switch(true){
     case(weatherId >=200 && weatherId<300):
+    
     return "🌧️";
     case(weatherId >=300 && weatherId<400):
+    
     return "🌧️";
     case(weatherId >=500 && weatherId<600):
     return "🌧️";
